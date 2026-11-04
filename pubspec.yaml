@@ -1,0 +1,19 @@
+name: flutter_account_kit
+description: Reusable account features for Flutter apps - authentication (phone OTP, email OTP, email/password), profile and settings. Riverpod + Hooks, backend-agnostic.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.5
+  hooks_riverpod: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
