@@ -44,7 +44,7 @@ class AuthFlowState {
 
 /// Headless logic for every auth screen. Build your own UI on top of this
 /// if the bundled screens don't fit.
-class AuthFlowController extends Notifier<AuthFlowState> {
+class AuthFlowController extends AutoDisposeNotifier<AuthFlowState> {
   static const resendSeconds = 30;
   Timer? _timer;
 
