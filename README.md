@@ -19,7 +19,7 @@ Riverpod + Hooks, backend-agnostic, themed by the host app.
 dependencies:
   flutter_account_kit:
     git:
-      url: https://github.com/aliawami/flutter_objects.git   # update if you rename the repo
+      url: https://github.com/aliawami/flutter_account_kit.git
       ref: v0.1.0
 ```
 
