@@ -184,9 +184,9 @@ class SettingsPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return SettingsScreen(sections: [
       SettingsScreen.appearanceSection(ref),
-      SettingsSection(
+      const SettingsSection(
         title: 'About',
-        children: const [
+        children: [
           ListTile(
             leading: Icon(Icons.info_outline),
             title: Text('flutter_account_kit'),
