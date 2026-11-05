@@ -73,7 +73,7 @@ the compiler flags.
 
 ## Roadmap
 
-- [ ] Example app (`example/`)
+- [x] Example app (`example/`)
 - [ ] Ready-made Supabase / Django adapters as separate packages
 - [ ] Forgot-password / email-OTP screens
 - [ ] Avatar picker helper
